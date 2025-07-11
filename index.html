@@ -1,92 +1,195 @@
-body {
-  font-family: "Segoe UI", sans-serif;
-  background-color: #e6f0fa;  /* 溫和淺藍背景 */
-  color: #333;
-  margin: 0;
-  padding: 20px;
-}
-header {
-  text-align: center;
-  background-color: #6a8dcc;  /* 柔和中藍 */
-  color: white;
-  padding: 5px 5px;
-  border-radius: 0px;
-}
-h1 { margin-bottom: 10px; }
-h2 { color: #6a8dcc; }  /* 標題用柔和藍 */
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI創網實戰營｜課程大綱 (7/11)</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #e6f0fa; /* 溫和淺藍 */
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      background-color: #6a8dcc; /* 柔和中藍 */
+      color: white;
+      padding: 5px 5px;
+    }
+    h1 { margin-bottom: 10px; }
+    h2 { color: #6a8dcc; }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-th, td {
-  border: 1px solid #abc1e3;  /* 淺藍邊框 */
-  padding: 12px;
-  vertical-align: top;
-}
-th {
-  background-color: #d7e2f7;  /* 淺藍色表頭 */
-}
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #abc1e3; /* 淺藍邊框 */
+      padding: 12px;
+      vertical-align: top;
+    }
+    th {
+      background-color: #d7e2f7; /* 淺藍表頭 */
+    }
 
-section {
-  max-width: 960px;
-  margin: 0 auto;
-}
+    section {
+      max-width: 960px;
+      margin: 0 auto;
+    }
 
-.button-group {
-  text-align: center;
-  margin-top: 30px;
-}
-.button-group a {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #6a8dcc;  /* 柔和中藍 */
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-}
-.button-group a:hover {
-  background-color: #5175b4;  /* 稍深點的藍色 */
-}
+    .button-group {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .button-group a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #6a8dcc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .button-group a:hover {
+      background-color: #5175b4;
+    }
 
-footer {
-  margin-top: 40px;
-  text-align: center;
-  color: #555e6f;  /* 柔和灰藍色 */
-}
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #555e6f;
+    }
 
-.top-bar {
-  background-color: #5175b4;  /* 柔和藍 */
-  color: white;
-  padding: 5px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.top-bar a {
-  color: white;
-  text-decoration: none;
-  margin-right: 15px;
-  font-weight: bold;
-}
+    .top-bar {
+      background-color: #5175b4;
+      color: white;
+      padding: 5px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .top-bar a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: bold;
+    }
 
-.button-area {
-  text-align: center;
-  margin-top: 100px;
-}
-.button-area a {
-  display: inline-block;
-  margin: 20px;
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: #6a8dcc;  /* 柔和中藍 */
-  color: white;
-  text-decoration: none;
-  border-radius: 10px;
-}
-.button-area a:hover {
-  background-color: #5175b4;
-}
+    .button-area {
+      text-align: center;
+      margin-top: 100px;
+    }
+    .button-area a {
+      display: inline-block;
+      margin: 20px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #6a8dcc;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+    .button-area a:hover {
+      background-color: #5175b4;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AI創網實戰營 (鍾承佑)</h1>
+  </header>
+
+  <!-- 🔗 頁首連結與按鈕 -->
+  <div class="top-bar">
+    <div>
+      <a href="https://mis.pccu.edu.tw/" target="_blank">文化資管系</a>
+    </div>
+    <div>
+      <a href="chatgpt.html">ChatGPT 操作說明</a>
+      <a href="github.html">GitHub 操作說明</a>
+      <a href="render.html">Render 操作說明</a>
+      <a href="intro.html">創作者自我介紹</a>
+    </div>
+  </div>
+
+  <section>
+    <h2>課程介紹</h2>
+    <p>
+      本營隊將帶領高中生從零開始學習如何使用 AI 工具設計並上線個人網站，課程分為兩堂：
+      <strong>AI智慧創站</strong> 與 <strong>雲端上線實戰</strong>，涵蓋網站內容生成、版面設計、GitHub 操作與 Render 部署，讓學生親手打造並發表屬於自己的第一個網站。
+    </p>
+
+    <h2>課程大綱表</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>課程名稱</th>
+          <th>教學內容</th>
+          <th>實作項目</th>
+          <th>預期成果</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>AI智慧創站</strong><br>從零開始打造你的個人網站</td>
+          <td>
+            - HTML/CSS基礎<br>
+            - 使用AI生成網頁內容與版型<br>
+            - 排版與風格設計<br>
+            - 互動元素簡介
+          </td>
+          <td>
+            - 建立個人首頁<br>
+            - 加入圖片與自我介紹<br>
+            - 客製化樣式
+          </td>
+          <td>
+            一個含個人風格的網站初稿（單頁）
+          </td>
+        </tr>
+        <tr>
+          <td><strong>雲端上線實戰</strong><br>GitHub與Render部署全攻略</td>
+          <td>
+            - Git/GitHub帳號與操作<br>
+            - 上傳網站原始碼<br>
+            - Render平台部署教學<br>
+            - 網站更新與維護
+          </td>
+          <td>
+            - GitHub倉庫建立與上傳<br>
+            - 成功部署網站<br>
+            - 練習更新內容
+          </td>
+          <td>
+            一個公開上線、可分享的網站網址
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="text-align: center; margin-top: 60px;">
+      <h2>加入營隊 LINE 聯絡群</h2>
+      <p>授課教師：王福星 教授｜助教：王仁為 同學(升大二)</p>
+      <p>掃描下方 QR Code 加入我們的 LINE 聯絡群組：</p>
+      <img src="line_qr.jpg" alt="LINE QR Code" width="200" style="border: 2px solid #ccc; border-radius: 8px;">
+    </div>
+
+    <div class="button-group">
+      <a href="chatgpt.html" class="button">ChatGPT 操作說明</a>
+      <a href="github.html" class="button">GitHub 操作說明</a>
+      <a href="render.html" class="button">Render 操作說明</a>
+      <a href="intro.html" class="button">創作者自我介紹</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AI創網實戰營｜Designed for aspiring web creators</p>
+  </footer>
+
+</body>
+</html>
